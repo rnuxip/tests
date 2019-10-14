@@ -7,7 +7,7 @@ spec:
   source:
       git:
         ref: master
-        uri:
+        uri: https://github.com/rnuxip/tests/
       type: Git
   strategy:
       sourceStrategy:
