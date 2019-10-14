@@ -10,11 +10,11 @@ spec:
         uri: https://github.com/rnuxip/tests/
       type: Git
   strategy:
-      sourceStrategy:
+      sourceStrategy: dockerStrategy
       type: Source
   output:
     to:
-      kind:
+      kind: simple-web-docker:latest
       name:
   triggers:
     - type: ConfigChange
